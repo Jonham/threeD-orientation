@@ -13,5 +13,6 @@ JH.on(window, "deviceorientation", function(e) {
 });
 
 window.onload = function() {
+    console.log(target);
     target.style.display = "none";
 };
