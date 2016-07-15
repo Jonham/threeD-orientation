@@ -11,3 +11,7 @@ JH.on(window, "deviceorientation", function(e) {
     mouseX = e.alpha - 180;
     mouseY = e.beta;
 });
+
+window.onload = function() {
+    target.style.display = "none";
+};
