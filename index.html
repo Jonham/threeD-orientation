@@ -12,9 +12,12 @@
         Oritation Infomation:
     </p> -->
     <p id="info">
-
+        <h3>
+            loading....
+        </h3>
     </p>
-		<script src="../build/three.min.js"></script>
+		<!-- <script src="http://threejs.org/build/three.js"></script> -->
+		<script src="http://threejs.org/build/three.min.js"></script>
 		<script src="js/loaders/TGALoader.js"></script>
 
 		<script src="js/Detector.js"></script>
@@ -98,9 +101,9 @@
 
 			function onDocumentMouseMove(event) {
 
-				var mouseX = ( event.clientX - windowHalfX );
-				var mouseY = ( event.clientY - windowHalfY );
-                console.log("X: " + mouseX + " Y:" + mouseY);
+				mouseX = ( event.clientX - windowHalfX );
+				mouseY = ( event.clientY - windowHalfY );
+                // console.log("X: " + mouseX + " Y:" + mouseY);
 
 			}
 
